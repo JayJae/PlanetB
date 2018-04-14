@@ -16,7 +16,7 @@ export default class App extends Component {
     };
 
     return (
-      <div md={12} lg={12} xs={12}>
+      <div>
         <Header>
           <a href="#home">Planet B</a>
           <a href="#aboutUs">About Us</a>
