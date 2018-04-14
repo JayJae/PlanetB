@@ -30,9 +30,12 @@
     "react": "^0.14.3",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^0.14.3",
+    "react-fullpage": "^0.1.18",
     "react-redux": "4.3.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4"
+    "react-router-dom": "^4.2.2",
+    "redux": "^3.0.4",
+    "redux-promise": "^0.5.3"
   },
   "bugs": {
     "url": "https://github.com/JayJae/PlanetB/issues"
