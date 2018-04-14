@@ -42,10 +42,10 @@ header span a:link{
   text-decoration: none;
 }
 
-header span a:active{
+header span a:hover {
   color: #333;
 }
 
-header span a:hover {
+header span a:focus{
   color: #333;
 }
