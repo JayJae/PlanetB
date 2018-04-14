@@ -1,0 +1,51 @@
+.jumbotron-custom {
+  background-image: url("../src/images/planet.jpg");
+  height: 100%;
+  background-size: cover;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.jumbotron-custom h1 {
+  font-size: 6em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.jumbotron-custom p {
+  font-size: 3em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+header {
+  background: #222;
+  height: 6em;
+  padding-top: 0.7em;
+}
+
+span { width:50%; display:inline-block; }
+
+.menu-brand a{
+  font-size: 3em;
+  margin-left: 1em;
+  color: white;
+}
+
+.menu-items a{
+  font-size: 1.5em;
+  color: white;
+  margin-left: 2em;
+}
+
+header span a:link{
+  text-decoration: none;
+}
+
+header span a:active{
+  color: #333;
+}
+
+header span a:hover {
+  color: #333;
+}
