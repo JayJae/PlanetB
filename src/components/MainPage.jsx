@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 import { Jumbotron, Button } from 'react-bootstrap';
+import PlanetBMain from './PlanetBMain';
+import MemberList from './MemberList';
 
 class MainPage extends Component {
   render() {
@@ -16,29 +18,25 @@ class MainPage extends Component {
       scrollOverflowReset:  true,
       responsiveSlides:     true
     };
-
-  particlesJS.load('particles-js', 'assets/particles.json', function() {
-    console.log('callback - particles-js config loaded');
-  });
-
-  return (
-        <SectionsContainer {...options}>
-          <Section color="#0E2331">
-		Page 1
-          </Section>
-          <Section color="#FF0000">
-		Page 2
-          </Section>
-          <Section color="#00FF00">
-		Page 3
-          </Section>
-          <Section color="#0000FF">
-		Page 4
-          </Section>
-          <Section color="#00FF00">
-		Page 5
-          </Section>
-        </SectionsContainer>
+    return (
+          <SectionsContainer {...options}>
+            <Section color="#0E2331">
+              <PlanetBMain />
+            </Section>
+            <Section color="#222">
+              <h1 className="page-name">Team Member</h1>
+            </Section>
+            <Section color="#333">
+              <h1 className="page-name">Team Member</h1>
+              <MemberList />
+            </Section>
+            <Section color="#0000FF">
+  		Page 4
+            </Section>
+            <Section color="#00FF00">
+  		Page 5
+            </Section>
+          </SectionsContainer>
     );
   }
 }
