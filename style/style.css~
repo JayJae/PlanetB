@@ -21,7 +21,6 @@ Main Page
 }
 
 .section-title {
-  text-align: center;
   color: white;
 }
 
