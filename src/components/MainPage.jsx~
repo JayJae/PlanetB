@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 import { Jumbotron, Button } from 'react-bootstrap';
-
 import PlanetBMain from './PlanetBMain';
 import PlanetBResearch from './PlanetBResearch';
-
 import MemberList from './MemberList';
 
 class MainPage extends Component {

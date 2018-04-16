@@ -31,7 +31,9 @@ const PlanetBMain = () => {
       <Particles params={params} className="particles"/>
       <span className="titles">
         <h1 className="maintitle">PlanetB</h1>
-        <h2 className="subtitle">Planet Blockchain, the Postech Blockchain Group</h2>
+				<h6 className="maintitle-sub">Aliens Living on the Blockchain Planet</h6>
+				<p className="main-glyphicon"><span className="glyphicon glyphicon-globe"></span></p>
+        <h2 className="subtitle">Research centered Blockchain Community in POSTECH</h2>
       </span>
     </div>
   );

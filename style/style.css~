@@ -101,7 +101,7 @@ Main Page
 
 .research-glyphicon {
   color: black;
-  font-size: 10em;
+  font-size: 8em;
   text-align: center;
   margin: 0px;
   padding: 0px !important;
