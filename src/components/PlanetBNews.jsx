@@ -6,32 +6,35 @@ const PlanetBNews = () => {
     <div className="planetb-news">
       <h1 className="maintitle-dark">Latest News</h1>
   	  <Grid>
+      <div style={{height:'50'}}></div>
   	    <Row className="show-grid">
   	      <Col sm={6} md={3}>
-            <div className="research-category-box">
-          		<p className="research-glyphicon">
-                <span className="glyphicon glyphicon-link"></span>
-              </p>
-          		<p className="research-category">Blockchain Network</p>
+            <div className="news-category-box">
+              <img src="/src/images/news/coindesk.png"></img>
+              <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
+              <a href="https://www.coindeskkorea.com/%EB%B9%84%ED%83%88%EB%A6%AD-%EB%8B%A8%EB%8F%85-%EC%9D%B8%ED%84%B0%EB%B7%B0-3%EC%84%B8%EB%8C%80-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%AC%B4%EC%8B%9C-%EB%A7%90/"> Learn more... </a>
             </div>
   	      </Col>
   	      <Col sm={6} md={3}>
-        		<p className="research-category-box research-glyphicon">
-              <span className="glyphicon glyphicon-check"></span>
-            </p>
-        		<p className="research-category">Consensus Algorithm</p>
+            <div className="news-category-box">
+              <img src="/src/images/news/coindesk.png"></img>
+              <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
+              <a href="https://www.coindeskkorea.com/%EB%B9%84%ED%83%88%EB%A6%AD-%EB%8B%A8%EB%8F%85-%EC%9D%B8%ED%84%B0%EB%B7%B0-3%EC%84%B8%EB%8C%80-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%AC%B4%EC%8B%9C-%EB%A7%90/"> Learn more... </a>
+            </div>
   	      </Col>
   	      <Col sm={6} md={3}>
-        		<p className="research-category-box research-glyphicon">
-              <span className="glyphicon glyphicon-phone"></span>
-            </p>
-        		<p className="research-category">Decentralized Application</p>
+            <div className="news-category-box">
+              <img src="/src/images/news/coindesk.png"></img>
+              <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
+              <a href="https://www.coindeskkorea.com/%EB%B9%84%ED%83%88%EB%A6%AD-%EB%8B%A8%EB%8F%85-%EC%9D%B8%ED%84%B0%EB%B7%B0-3%EC%84%B8%EB%8C%80-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%AC%B4%EC%8B%9C-%EB%A7%90/"> Learn more... </a>
+            </div>
   	      </Col>
   	      <Col sm={6} md={3}>
-  		        <p className="research-category-box research-glyphicon">
-                <span className="glyphicon glyphicon-bitcoin"></span>
-              </p>
-  		        <p className="research-category">Token Economics</p>
+            <div className="news-category-box">
+              <img src="/src/images/news/coindesk.png"></img>
+              <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
+              <a href="https://www.coindeskkorea.com/%EB%B9%84%ED%83%88%EB%A6%AD-%EB%8B%A8%EB%8F%85-%EC%9D%B8%ED%84%B0%EB%B7%B0-3%EC%84%B8%EB%8C%80-%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8-%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80-%EB%AC%B4%EC%8B%9C-%EB%A7%90/"> Learn more... </a>
+            </div>
   	      </Col>
   	    </Row>
   	  </Grid>
