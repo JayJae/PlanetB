@@ -31,10 +31,9 @@ class MainPage extends Component {
               <PlanetBResearch />
             </Section>
             <Section color="#000000">
-              <div style={{sectionPaddingBottom:'300'}}>
-                <h2 className="page-name">Team</h2>
-                <MemberList />
-              </div>
+              <h2 className="page-name">Team</h2>
+              <MemberList />
+              <div style={{height:'750'}}></div>
             </Section>
             <Section color="#444">
   		        Page 4
