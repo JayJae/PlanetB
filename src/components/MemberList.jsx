@@ -4,24 +4,24 @@ import Member from './Member';
 const MemberList = () => {
   const memberInfos = [
     {
-      imageUrl: "https://pbs.twimg.com/profile_images/548619278333652993/wr4d4F0X_400x400.jpeg",
-      name: "오징어",
-      description: "나는 오징어다"
+      imageUrl: "/src/images/team/gyjoo.png",
+      name: "Ki Young Ju",
+      description: "Founder. Product Manager at theloop"
     },
     {
-      imageUrl: "https://pbs.twimg.com/profile_images/548619278333652993/wr4d4F0X_400x400.jpeg",
-      name: "오징어",
-      description: "나는 오징어다"
+      imageUrl: "/src/images/team/dylee.png",
+      name: "Do yeop Lee",
+      description: "PhD Candidate. Kakao Brain"
     },
     {
-      imageUrl: "https://pbs.twimg.com/profile_images/548619278333652993/wr4d4F0X_400x400.jpeg",
-      name: "오징어",
-      description: "나는 오징어다"
+      imageUrl: "/src/images/team/hjpark.png",
+      name: "Hyun Jae Park",
+      description: "DApp Developer @ Penta Security Systems"
     },
     {
-      imageUrl: "https://pbs.twimg.com/profile_images/548619278333652993/wr4d4F0X_400x400.jpeg",
-      name: "오징어",
-      description: "나는 오징어다"
+      imageUrl: "",
+      name: "Kyung June Lee",
+      description: "PhD Candidate"
     },
     {
       imageUrl: "https://pbs.twimg.com/profile_images/548619278333652993/wr4d4F0X_400x400.jpeg",
