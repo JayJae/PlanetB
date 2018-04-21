@@ -4,6 +4,7 @@ import { Button, Row, Col, FormControl, FormGroup, ControlLabel } from 'react-bo
 const NAME = "name";
 const EMAIL = "email";
 const SUBJECT = "subject";
+const BODY ="body";
 
 export default class ContactUs extends Component {
   constructor(props, context) {
@@ -12,19 +13,27 @@ export default class ContactUs extends Component {
     this.handleChange = this.handleChange.bind(this);
 
     this.state = {
+      /*
       name: '',
       email: '',
+      */
+      body: '',
       subject: ''
     };
   }
 
   handleChange(e, type) {
     switch(type) {
+      /*
       case NAME:
         this.setState({ name: e.target.value });
         break;
       case EMAIL:
         this.setState({ email: e.target.value });
+        break;
+      */
+      case BODY:
+        this.setState({ body: e.target.value });
         break;
       case SUBJECT:
         this.setState({ subject: e.target.value });
@@ -34,6 +43,7 @@ export default class ContactUs extends Component {
 
   getValidationState(type) {
     switch(type) {
+      /*
       case NAME:
         const name = this.state.name;
 
@@ -47,43 +57,41 @@ export default class ContactUs extends Component {
           else return 'error';
         }
         return null;
+        */
+      case BODY:
+        const body = this.state.body;
+        if (body.length > 0 && body.length < 20) return 'error';
+        else if (body.length >= 20) return 'success';
+        return null;
       case SUBJECT:
         const subject = this.state.subject;
-
-        if (subject.length > 0 && subject.length < 20) return 'error';
-        else if (subject.length >= 20) return 'success';
+        if (subject.length > 0 && subject.length < 5) return 'error';
+        else if (subject.length >= 5) return 'success';
         return null;
     }
     return null;
   }
 
   render() {
+    const emailAction=`mailto:blockchain.postech@gmail.com?&subject=${this.state.subject}&body=${this.state.body}`;
+
     return (
-      <form className="contact-form">
+      <form
+        className="contact-form"
+        action={emailAction}
+        method="post">
         <Row>
           <Col md={3} xs={0} />
-          <Col md={3} xs={12}>
+
+          <Col md={6} xs={12}>
             <FormGroup
-              validationState={this.getValidationState(NAME)}
+              validationState={this.getValidationState(SUBJECT)}
               bsSize="md">
               <FormControl
                 type="text"
-                value={this.state.name}
-                placeholder="Enter name"
-                onChange={(e, type) => this.handleChange(e, NAME)}
-              />
-              <FormControl.Feedback />
-            </FormGroup>
-          </Col>
-          <Col md={3} xs={12}>
-            <FormGroup
-              validationState={this.getValidationState(EMAIL)}
-              bsSize="md">
-              <FormControl
-                type="text"
-                value={this.state.email}
-                placeholder="Enter email"
-                onChange={(e, type) => this.handleChange(e, EMAIL)}
+                value={this.state.subject}
+                placeholder="Enter subject"
+                onChange={(e, type) => this.handleChange(e, SUBJECT)}
               />
               <FormControl.Feedback />
             </FormGroup>
@@ -94,14 +102,14 @@ export default class ContactUs extends Component {
           <Col md={3} xs={0} />
           <Col md={6} xs={12}>
             <FormGroup
-              validationState={this.getValidationState(SUBJECT)}>
+              validationState={this.getValidationState(BODY)}>
               <FormControl
                 type="text"
                 componentClass="textarea"
                 style={{ height: "20rem" }}
-                value={this.state.subject}
-                placeholder="Enter subject"
-                onChange={(e, type) => this.handleChange(e, SUBJECT)}
+                value={this.state.body}
+                placeholder="Enter body"
+                onChange={(e, type) => this.handleChange(e, BODY)}
               />
               <FormControl.Feedback />
             </FormGroup>
@@ -125,6 +133,33 @@ export default class ContactUs extends Component {
       </form>
 
     )
-
+    /*
+    <Col md={3} xs={12}>
+      <FormGroup
+        validationState={this.getValidationState(NAME)}
+        bsSize="md">
+        <FormControl
+          type="text"
+          value={this.state.name}
+          placeholder="Enter name"
+          onChange={(e, type) => this.handleChange(e, NAME)}
+        />
+        <FormControl.Feedback />
+      </FormGroup>
+    </Col>
+    <Col md={3} xs={12}>
+      <FormGroup
+        validationState={this.getValidationState(EMAIL)}
+        bsSize="md">
+        <FormControl
+          type="text"
+          value={this.state.email}
+          placeholder="Enter email"
+          onChange={(e, type) => this.handleChange(e, EMAIL)}
+        />
+        <FormControl.Feedback />
+      </FormGroup>
+    </Col>
+    */
   }
 };
