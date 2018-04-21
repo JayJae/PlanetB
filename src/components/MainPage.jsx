@@ -30,8 +30,8 @@ class MainPage extends Component {
             <Section color="#EFEFEF">
               <PlanetBResearch />
             </Section>
-            <Section color="#333">
-              <h1 className="page-name">Team Member</h1>
+            <Section color="#000000">
+              <h2 className="page-name">Team</h2>
               <MemberList />
             </Section>
             <Section color="#444">
