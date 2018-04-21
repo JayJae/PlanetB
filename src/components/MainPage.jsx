@@ -33,6 +33,7 @@ class MainPage extends Component {
             <Section color="#000000">
               <h2 className="page-name">Team</h2>
               <MemberList />
+              <div style={{height:'750'}}></div>
             </Section>
             <Section color="#444">
   		        Page 4
