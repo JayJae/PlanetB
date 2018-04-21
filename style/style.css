@@ -56,7 +56,6 @@ Main Page
 .maintitle {
   color: #272727;
   font-size: 3em;
-  margin-top: 1em;
   margin-bottom: 2em;
   text-align: center;
   padding-top: 2em;
@@ -65,7 +64,6 @@ Main Page
 .maintitle-dark {
   color: white;
   font-size: 3em;
-  margin-top: 1em;
   margin-bottom: 1em;
   text-align: center;
   padding-top: 2em;
@@ -209,6 +207,60 @@ Main Page
   font-weight: lighter;
 }
 
+/* contact us */
+.contact-us {
+  background: linear-gradient(180deg,#0b2b3d,gray);
+  height:100%;
+}
+
+input.form-control{
+    margin: 0;
+    vertical-align: bottom;
+    width: 100%;
+    border: none;
+    padding: 0 .9375rem;
+    height: 40px;
+    letter-spacing: 1px;
+    font-size: 1.25rem;
+    background: hsla(0,0%,100%,.08);
+    border-color:hsla(0,0%,96%,.5);
+    border-style: solid;
+    color:white;
+    -webkit-font-smoothing: antialiased;
+}
+textarea.form-control{
+      resize: none;
+      padding: .9375rem;
+      margin: 0;
+      vertical-align: bottom;
+      width: 100%;
+      border: none;
+      height: 150px;
+      letter-spacing: 1px;
+      font-size: 1.25rem;
+      background: hsla(0,0%,100%,.08);
+      border-color:hsla(0,0%,96%,.5);
+      border-style: solid;
+      color:white;
+      -webkit-font-smoothing: antialiased;
+}
+
+btn.border {
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    padding: 11px 32px 9px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    background-color: rgba(50,50,50,.9);
+}
+
+/* footer */
+.planetb-news {
+  background: url("/src/images/footer-bg.png");
+  background-position:center top;
+}
 
 /* Particles */
 

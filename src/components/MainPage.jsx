@@ -42,10 +42,11 @@ class MainPage extends Component {
             <Section color="#041e2f">
               <PlanetBNews />
             </Section>
-            <Section color="#555">
+            <Section color="#0b2b3d">
               <ContactUs />
             </Section>
           </SectionsContainer>
+
     );
   }
 }

@@ -76,90 +76,92 @@ export default class ContactUs extends Component {
     const emailAction=`mailto:blockchain.postech@gmail.com?&subject=${this.state.subject}&body=${this.state.body}`;
 
     return (
-      <form
-        className="contact-form"
-        action={emailAction}
-        method="post">
-        <Row>
-          <Col md={3} xs={0} />
+      <div className="contact-us">
+      <h1 className="maintitle-dark">Contact Us</h1>
+        <form
+          className="contact-form"
+          action={emailAction}
+          method="post">
+          <Row>
+            <Col md={3} xs={0} />
 
-          <Col md={6} xs={12}>
-            <FormGroup
-              validationState={this.getValidationState(SUBJECT)}
-              bsSize="md">
-              <FormControl
-                type="text"
-                value={this.state.subject}
-                placeholder="Enter subject"
-                onChange={(e, type) => this.handleChange(e, SUBJECT)}
-              />
-              <FormControl.Feedback />
-            </FormGroup>
-          </Col>
-          <Col md={3} xs={0} />
-        </Row>
-        <Row>
-          <Col md={3} xs={0} />
-          <Col md={6} xs={12}>
-            <FormGroup
-              validationState={this.getValidationState(BODY)}>
-              <FormControl
-                type="text"
-                componentClass="textarea"
-                style={{ height: "20rem" }}
-                value={this.state.body}
-                placeholder="Enter body"
-                onChange={(e, type) => this.handleChange(e, BODY)}
-              />
-              <FormControl.Feedback />
-            </FormGroup>
-          </Col>
-          <Col md={3} xs={0} />
-        </Row>
-        <Row>
-          <Col md={3} xs={0} />
-          <Col md={6} xs={12}>
-            <Button
-              type="submit"
-              bsStyle="primary"
-              bsSize="large"
-              style={{width:"100%"}}
-              >
-              Send Email
-            </Button>
-          </Col>
-          <Col md={3} xs={0} />
-        </Row>
-      </form>
-
-    )
-    /*
-    <Col md={3} xs={12}>
-      <FormGroup
-        validationState={this.getValidationState(NAME)}
-        bsSize="md">
-        <FormControl
-          type="text"
-          value={this.state.name}
-          placeholder="Enter name"
-          onChange={(e, type) => this.handleChange(e, NAME)}
-        />
-        <FormControl.Feedback />
-      </FormGroup>
-    </Col>
-    <Col md={3} xs={12}>
-      <FormGroup
-        validationState={this.getValidationState(EMAIL)}
-        bsSize="md">
-        <FormControl
-          type="text"
-          value={this.state.email}
-          placeholder="Enter email"
-          onChange={(e, type) => this.handleChange(e, EMAIL)}
-        />
-        <FormControl.Feedback />
-      </FormGroup>
-    </Col>
-    */
+            <Col md={6} xs={12}>
+              <FormGroup
+                validationState={this.getValidationState(SUBJECT)}
+                bsSize="md">
+                <FormControl
+                  type="text"
+                  value={this.state.subject}
+                  placeholder="Subject"
+                  onChange={(e, type) => this.handleChange(e, SUBJECT)}
+                />
+                <FormControl.Feedback />
+              </FormGroup>
+            </Col>
+            <Col md={3} xs={0} />
+          </Row>
+          <Row>
+            <Col md={3} xs={0} />
+            <Col md={6} xs={12}>
+              <FormGroup
+                validationState={this.getValidationState(BODY)}>
+                <FormControl
+                  type="text"
+                  componentClass="textarea"
+                  style={{ height: "20rem"}}
+                  value={this.state.body}
+                  placeholder="Description"
+                  onChange={(e, type) => this.handleChange(e, BODY)}
+                />
+                <FormControl.Feedback />
+              </FormGroup>
+            </Col>
+            <Col md={3} xs={0} />
+          </Row>
+          <Row>
+            <Col md={3} xs={0} />
+            <Col md={6} xs={12}>
+              <Button
+                type="submit border"
+                bsStyle="border"
+                bsSize="large"
+                style={{width:"100%"}}
+                >
+                SEND IT OVER >
+              </Button>
+            </Col>
+            <Col md={3} xs={0} />
+          </Row>
+        </form>
+    </div>
+      )
+      /*
+      <Col md={3} xs={12}>
+        <FormGroup
+          validationState={this.getValidationState(NAME)}
+          bsSize="md">
+          <FormControl
+            type="text"
+            value={this.state.name}
+            placeholder="Enter name"
+            onChange={(e, type) => this.handleChange(e, NAME)}
+          />
+          <FormControl.Feedback />
+        </FormGroup>
+      </Col>
+      <Col md={3} xs={12}>
+        <FormGroup
+          validationState={this.getValidationState(EMAIL)}
+          bsSize="md">
+          <FormControl
+            type="text"
+            value={this.state.email}
+            placeholder="Enter email"
+            onChange={(e, type) => this.handleChange(e, EMAIL)}
+          />
+          <FormControl.Feedback />
+        </FormGroup>
+      </Col>
+      */
   }
 };
