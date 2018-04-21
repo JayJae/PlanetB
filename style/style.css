@@ -52,13 +52,25 @@ Main Page
 	padding: 0px;
 	margin: 0px;
 }
-/*
+
 .maintitle {
-  margin-top: 0px;
-  color: white;
-  font-size: 6em;
+  color: #272727;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 2em;
   text-align: center;
-}*/
+  padding-top: 2em;
+}
+
+.maintitle-dark {
+  color: white;
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  padding-top: 2em;
+}
+
 .title-image {
   display: block;
   margin-left: auto;
@@ -79,13 +91,7 @@ Main Page
   text-align: center;
 	font-weight: lighter;
 }
-.page-name {
-  color: white;
-  font-size: 4em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  text-align: center;
-}
+
 
 .thumb {
   display: block;
@@ -100,6 +106,7 @@ Main Page
   color: white;
 }
 .profile-img {
+
   width: 100%;
   display: block; /* Otherwise it keeps some space around baseline */
   min-width: 100%; /* Scale up to fill container width */
@@ -137,15 +144,15 @@ Main Page
   opacity: 1;
 }
 
-/* Research */
-.planetb-research {
-
+/* About */
+.planetb-about {
+  height:100%;
 }
 
-.planetb-research h1 {
-  color: black;
-  font-size: 2em;
-  text-align: center;
+/* Research */
+.planetb-research {
+  background-image: url("/src/images/cosmos.png");
+  height:100%;
 }
 
 .research-category-box {
@@ -154,7 +161,7 @@ Main Page
 }
 
 .research-glyphicon {
-  color: black;
+  color: #272727;
   font-size: 10em;
   text-align: center;
   margin: 0px;
@@ -167,11 +174,23 @@ Main Page
 
 .research-category {
   margin-top: -40px !important;
-  color: black;
+  color: #272727;
   font-size: 1.5em;
   text-align: center;
   font-weight: lighter;
 }
+
+/* Member */
+.member {
+}
+
+/* Research */
+.planetb-news {
+  background: linear-gradient( rgba(4, 31, 48, 0.8), rgba(4, 31, 48, 0.6) ), url("/src/images/collage.jpg");
+  background-position:center top;
+  height:100%;
+}
+
 
 /* Particles */
 

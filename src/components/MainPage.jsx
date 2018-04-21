@@ -3,16 +3,17 @@ import {SectionsContainer, Section, Header, Footer} from 'react-fullpage';
 import { Jumbotron, Button } from 'react-bootstrap';
 
 import PlanetBMain from './PlanetBMain';
+import PlanetBAbout from './PlanetBAbout';
 import PlanetBResearch from './PlanetBResearch';
-
 import MemberList from './MemberList';
+import PlanetBNews from './PlanetBNews';
 import ContactUs from './ContactUs';
 
 class MainPage extends Component {
   render() {
     let options = {
       sectionClassName:     'section fp-auto-height-responsive',
-      anchors:              ['ABOUT', 'RESEARCH', 'MEMBER', 'EVENT', 'CONTACT'],
+      anchors:              ['HOME', 'ABOUT', 'RESEARCH', 'TEAM', 'NEWS', 'CONTACT'],
       fitToSection:         true,
       scrollBar:            true,
       autoScrolling:        false,
@@ -28,15 +29,18 @@ class MainPage extends Component {
               <PlanetBMain />
             </Section>
             <Section color="#EFEFEF">
+              <PlanetBAbout />
+            </Section>
+            <Section color="#EFEFEF">
               <PlanetBResearch />
             </Section>
-            <Section color="#000000">
-              <h2 className="page-name">Team</h2>
+            <Section color="#041e2f">
+              <h2 className="maintitle-dark">Researchers</h2>
               <MemberList />
               <div style={{height:'750'}}></div>
             </Section>
-            <Section color="#444">
-  		        Page 4
+            <Section color="#041e2f">
+              <PlanetBNews />
             </Section>
             <Section color="#555">
               <ContactUs />

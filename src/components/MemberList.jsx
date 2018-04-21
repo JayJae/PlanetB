@@ -27,7 +27,7 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/hjpark.jpg",
       name: "Hyun Jae Park",
-      description: "DApp Developer @Penta Security Systems"
+      description: "Developer @Penta Security Systems"
     },
     {
       imageUrl: "/src/images/team/bjkim2.png",

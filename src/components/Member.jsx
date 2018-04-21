@@ -1,4 +1,5 @@
 import React from 'react';
+import { Grid, Row, Col} from 'react-bootstrap';
 
 const Member = ({imageUrl, name, description, linkedin}) => {
   return (
