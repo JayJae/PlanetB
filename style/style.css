@@ -11,6 +11,7 @@ Main Page
 .container-main {
   margin: 0px !important;
   background-color: red !important;
+  background-size: cover;
 }
 
 .container-section {
@@ -27,14 +28,16 @@ Main Page
 
 .planetb-main {
   color: white;
-  max-height: 100%;
+  width: 100%;
+  height: 100%;
   position: relative;
 }
 
 .titles {
   position: absolute;
-  top: 0; bottom:0; margin-top:10%; margin-bottom:10%;
-  left: 0; right: 0; margin-left:auto; margin-right:auto;
+  top: 0; bottom: 0; left: 0; right: 0;
+  height: 60%;
+  margin: auto;
 }
 
 .main-glyphicon {
@@ -44,12 +47,18 @@ Main Page
 	padding: 0px;
 	margin: 0px;
 }
-
+/*
 .maintitle {
   margin-top: 0px;
   color: white;
   font-size: 6em;
   text-align: center;
+}*/
+.title-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
 }
 .maintitle-sub {
   color: #cfcfcf;
@@ -156,8 +165,14 @@ Main Page
 }
 
 /* Particles */
-.particles {
 
+.particles-canvas {
+  position: absolute;
+  width:100%;
+  height: 100%;
+}
+
+.particles {
 	background-image:
 	radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
 	radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
@@ -165,6 +180,12 @@ Main Page
 	radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+
 }
 
 .section-about {
@@ -173,6 +194,7 @@ Main Page
 	-webkit-animation: Gradient 15s ease infinite;
 	-moz-animation: Gradient 15s ease infinite;
 	animation: Gradient 15s ease infinite;
+  height:100%
 }
 
 @-webkit-keyframes Gradient {

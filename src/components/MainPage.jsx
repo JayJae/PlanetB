@@ -10,16 +10,16 @@ import MemberList from './MemberList';
 class MainPage extends Component {
   render() {
     let options = {
-      sectionClassName:     'section',
+      sectionClassName:     'section fp-auto-height-responsive',
       anchors:              ['ABOUT', 'RESEARCH', 'MEMBER', 'EVENT', 'CONTACT'],
-      scrollBar:            false,
-      navigation:           true,
+      fitToSection:         true,
+      scrollBar:            true,
+      autoScrolling:        false,
       verticalAlign:        true,
-      sectionPaddingTop:    '40px',
+      sectionPaddingTop:    '0px',
       sectionPaddingBottom: '0px',
-      arrowNavigation:      true,
-      scrollOverflowReset:  true,
-      responsiveSlides:     true
+      responsiveAutoHeight: true,
+      scrollOverflowReset: true
     };
     return (
           <SectionsContainer {...options}>
