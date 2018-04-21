@@ -6,6 +6,7 @@ import PlanetBMain from './PlanetBMain';
 import PlanetBResearch from './PlanetBResearch';
 
 import MemberList from './MemberList';
+import ContactUs from './ContactUs';
 
 class MainPage extends Component {
   render() {
@@ -35,11 +36,11 @@ class MainPage extends Component {
                 <MemberList />
               </div>
             </Section>
-            <Section color="#0000FF">
-  		Page 4
+            <Section color="#444">
+  		        Page 4
             </Section>
-            <Section color="#00FF00">
-  		Page 5
+            <Section color="#555">
+              <ContactUs />
             </Section>
           </SectionsContainer>
     );

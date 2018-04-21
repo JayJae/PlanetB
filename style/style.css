@@ -190,11 +190,9 @@ Main Page
 	background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 	background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
   width: 100%;
   height: 100%;
   position: absolute;
-
 }
 
 .section-about {
@@ -240,4 +238,9 @@ Main Page
 	100% {
 		background-position: 0% 50%
 	}
+}
+
+.contact-form {
+  margin-left: 10px;
+  margin-right: 10px;
 }
