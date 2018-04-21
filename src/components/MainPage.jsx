@@ -30,8 +30,10 @@ class MainPage extends Component {
               <PlanetBResearch />
             </Section>
             <Section color="#000000">
-              <h2 className="page-name">Team</h2>
-              <MemberList />
+              <div style={{sectionPaddingBottom:'300'}}>
+                <h2 className="page-name">Team</h2>
+                <MemberList />
+              </div>
             </Section>
             <Section color="#0000FF">
   		Page 4

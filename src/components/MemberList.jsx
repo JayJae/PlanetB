@@ -57,7 +57,7 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/bkjang.jpg",
       name: "Byung Kook Jang",
-      description: "Industrial & Management Eng. Crypto Millianaire"
+      description: "Industrial & Management Eng. Crypto Millionaire"
     },
     {
       imageUrl: "/src/images/team/bjkim.jpg",
@@ -68,7 +68,19 @@ const MemberList = () => {
       imageUrl: "/src/images/team/kwjoo.jpg",
       name: "Kyung Woon Ju",
       description: "Industrial & Management Eng., Undergrad"
+    },
+    {
+      imageUrl: "/src/images/team/kcko.jpg",
+      name: "Kyung Chan Ko",
+      description: "PhD Candidate, Distributed Computing"
+    },
+    {
+      imageUrl: "/src/images/team/jsyoon.jpeg",
+      name: "Ji Sung Yoon",
+      description: "PhD Candidate, Industrial & Management Eng."
     }
+
+
   ]
 
   const memberList = memberInfos.map(memberInfo => {

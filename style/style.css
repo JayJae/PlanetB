@@ -82,8 +82,9 @@ Main Page
 .page-name {
   color: white;
   font-size: 4em;
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  text-align: center;
 }
 
 .thumb {
