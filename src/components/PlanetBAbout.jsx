@@ -8,7 +8,7 @@ const PlanetBAbout = () => {
         <Row className="show-grid">
           <Col sm={12} md={9}>
           <h1 className="maintitle-no-padding">Blockchain at POSTECH</h1>
-            <div className="maintitle-no-padding-paragraph">Planet.B is a student-run organization at POSTECH dedicated to doing blockchain research with consensus algorithms, decentralized applications, token economics and blockchain network. We are working with industry leaders and academics to design and develop blockchain solutions that create intrinsic values of decenrtralization. </div>
+            <div className="maintitle-no-padding-paragraph">Planet.B is a student-run organization at POSTECH dedicated to doing blockchain research with consensus algorithms, decentralized applications, token economics and blockchain network. We are working with industry leaders and academics to design and develop blockchain solutions that create intrinsic values of decentralization. </div>
           </Col>
           <Col sm={12} md={3}>
           <p className="research-category-box research-glyphicon">

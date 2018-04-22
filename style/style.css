@@ -237,7 +237,7 @@ Main Page
   min-height: 100%; /* Scale up to fill container height */
   -ms-interpolation-mode: bicubic; /* Scaled images look a bit better in IE now */
 
-    object-fit: cover;
+  object-fit: cover;
 
   position:relative;
   float:left;
