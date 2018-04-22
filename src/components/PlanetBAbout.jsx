@@ -4,8 +4,9 @@ import { Grid, Row, Col, Clearfix, ListGroup, ListGroupItem } from 'react-bootst
 const PlanetBAbout = () => {
   return (
     <div className="planetb-about">
-      <h1 className="maintitle">What we do</h1>
-  	  <Grid>
+      <h1 className="maintitle">WHAT WE DO</h1>
+        <div className="maintitle-paragraph">Planet.B is the student-run organization at POSTECH dedicated to doing blockchain research with consensus algorithms, DApp and cryptoeconomics.</div>
+      <Grid>
   	    <Row className="show-grid">
   	      <Col sm={6} md={3}>
             <div className="research-category-box">

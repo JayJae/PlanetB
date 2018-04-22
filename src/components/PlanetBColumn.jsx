@@ -1,10 +1,11 @@
 import React from 'react';
 import { Grid, Row, Col, Clearfix, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-const PlanetBNews = () => {
+const PlanetBColumn = () => {
   return (
     <div className="planetb-news">
-      <h1 className="maintitle-dark">Latest News</h1>
+      <h1 className="maintitle-dark">Latest Columns</h1>
+      <div className="maintitle-dark-paragraph">We write and submit an article to be published in a newspaper, Steemit, journal, etc.</div>
   	  <Grid>
       <div style={{height:'50'}}></div>
   	    <Row className="show-grid">
@@ -62,4 +63,4 @@ const PlanetBNews = () => {
   );
 };
 
-export default PlanetBNews;
+export default PlanetBColumn;

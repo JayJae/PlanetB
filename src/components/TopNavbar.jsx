@@ -18,7 +18,7 @@ export default class TopNavbar extends Component {
             <NavItem eventKey={2} href="#ABOUT">ABOUT</NavItem>
     	      <NavItem eventKey={3} href="#RESEARCH">RESEARCH</NavItem>
     	      <NavItem eventKey={4} href="#TEAM">TEAM</NavItem>
-    	      <NavItem eventKey={5} href="#NEWS">NEWS</NavItem>
+    	      <NavItem eventKey={5} href="#COLUMN">COLUMN</NavItem>
     	      <NavItem eventKey={6} href="#CONTACT">CONTACT</NavItem>
     	    </Nav>
     	  </Navbar.Collapse>

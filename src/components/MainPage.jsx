@@ -6,14 +6,14 @@ import PlanetBMain from './PlanetBMain';
 import PlanetBAbout from './PlanetBAbout';
 import PlanetBResearch from './PlanetBResearch';
 import MemberList from './MemberList';
-import PlanetBNews from './PlanetBNews';
+import PlanetBColumn from './PlanetBColumn';
 import ContactUs from './ContactUs';
 
 class MainPage extends Component {
   render() {
     let options = {
       sectionClassName:     'section fp-auto-height-responsive',
-      anchors:              ['HOME', 'ABOUT', 'RESEARCH', 'TEAM', 'NEWS', 'CONTACT'],
+      anchors:              ['HOME', 'ABOUT', 'RESEARCH', 'TEAM', 'COLUMN', 'CONTACT'],
       fitToSection:         true,
       scrollBar:            true,
       autoScrolling:        false,
@@ -36,11 +36,12 @@ class MainPage extends Component {
             </Section>
             <Section color="#041e2f">
               <h2 className="maintitle-dark">Researchers</h2>
+              <div className="maintitle-dark-paragraph">Our team consists of PhD candidates, developers, entrepreneurs and engineering undergrads all coming from <strong>POSTECH</strong>(Pohang University of Science and Technology).</div>
               <MemberList />
               <div style={{height:'750'}}></div>
             </Section>
             <Section color="#041e2f">
-              <PlanetBNews />
+              <PlanetBColumn />
             </Section>
             <Section color="#0b2b3d">
               <ContactUs />

@@ -4,7 +4,8 @@ import { Grid, Row, Col, Clearfix, ListGroup, ListGroupItem } from 'react-bootst
 const PlanetBResearch = () => {
   return (
     <div className="planetb-research">
-      <h1 className="maintitle-dark">Ongoing Research</h1>
+      <h1 className="maintitle-dark">ONGOING RESEARCH</h1>
+      <div className="maintitle-dark-paragraph">We contribute to the cryptocurrency ecosystem ourselves by suggesting new token economy models and developing open-source projects.</div>
     	<Grid>
     	  <Row className="show-grid">
           <Col sm={12} md={12}>

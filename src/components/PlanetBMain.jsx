@@ -36,7 +36,7 @@ const PlanetBMain = () => {
         <img src="./src/images/logo_white.png" width="auto" height="10%" className="title-image"/>
         <h6 className="maintitle-sub">Aliens Living on the Blockchain Planet</h6>
         <p className="main-glyphicon"><span className="glyphicon glyphicon-globe"></span></p>
-        <h2 className="subtitle">Research centered Blockchain Community in POSTECH</h2>
+        <h2 className="subtitle">Research-focused Blockchain Community at POSTECH</h2>
         <div id="container">
           <div className="button-2">
             <div className="eff-2"></div>
