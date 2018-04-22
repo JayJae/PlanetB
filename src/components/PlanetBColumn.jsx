@@ -4,7 +4,7 @@ import { Grid, Row, Col, Clearfix, ListGroup, ListGroupItem } from 'react-bootst
 const PlanetBColumn = () => {
   return (
     <div className="planetb-news">
-      <h1 className="maintitle-dark">Latest Columns</h1>
+      <h1 className="maintitle-dark">LATEST COLUMNS</h1>
       <div className="maintitle-dark-paragraph">We write and submit an article to be published in a newspaper, Steemit, journal, etc.</div>
   	  <Grid>
       <div style={{height:'50'}}></div>

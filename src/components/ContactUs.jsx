@@ -77,7 +77,7 @@ export default class ContactUs extends Component {
 
     return (
       <div className="contact-us">
-      <h1 className="maintitle-dark">Contact Us</h1>
+      <h1 className="maintitle-dark">CONTACT US</h1>
       <div className="maintitle-dark-paragraph">Get involved. Currently we don't consult any companies except for academic purpose.</div>
         <form
           className="contact-form"

@@ -147,6 +147,7 @@ Main Page
   font-size: 3em;
   text-align: center;
   padding-top: 2em;
+  font-weight: lighter;
 }
 .maintitle-paragraph{
   color: #272727;
@@ -163,6 +164,8 @@ Main Page
   font-size: 3em;
   text-align: center;
   padding-top: 2em;
+  font-weight: lighter;
+
 }
 .maintitle-dark-paragraph{
   color: white;
@@ -172,6 +175,24 @@ Main Page
   max-width: 720px;
   left:50%;
   margin: auto auto 3em auto;
+}
+.maintitle-no-padding {
+  color: #272727;
+  font-size: 2em;
+  text-align: left;
+  font-weight: 100;
+  max-width: 720px;
+  margin:auto;
+  padding-bottom: 1em;
+
+}
+.maintitle-no-padding-paragraph{
+  color: #272727;
+  font-size: 1em;
+  text-align: left;
+  max-width: 720px;
+  left:50%;
+  margin: auto;
 }
 
 .title-image {
@@ -249,7 +270,10 @@ Main Page
 
 /* About */
 .planetb-about {
-  height:100%;
+}
+#ABOUT {
+  height: 400px !important;
+
 }
 
 /* Research */
@@ -259,14 +283,15 @@ Main Page
 }
 
 .research-category-box {
-  border: 1px solid #cfcfcf;
 }
 
 .research-glyphicon {
   color: #272727;
 
-  font-size: 6em;
-  text-align: center;
+  font-size: 1.5em;
+  word-spacing: -0.5em;
+  text-align: left;
+  line-height: 2em;
   margin: 0px;
   padding: 0px !important;
   margin: 0px  !important;

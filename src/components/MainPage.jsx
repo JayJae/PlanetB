@@ -36,7 +36,7 @@ class MainPage extends Component {
             </Section>
             <Section color="#041e2f">
               <div className="member">
-                <h2 className="maintitle-dark">Researchers</h2>
+                <h2 className="maintitle-dark">RESEARCHERS</h2>
                 <div className="maintitle-dark-paragraph">Our team consists of PhD candidates, developers, entrepreneurs and engineering undergrads all coming from <strong>POSTECH</strong>(Pohang University of Science and Technology).</div>
                 <MemberList />
                 <div style={{height:'750'}}></div>
