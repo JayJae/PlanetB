@@ -93,7 +93,7 @@ export default class ContactUs extends Component {
                 <FormControl
                   type="text"
                   value={this.state.subject}
-                  placeholder="Subject"
+                  placeholder="SUBJECT"
                   onChange={(e, type) => this.handleChange(e, SUBJECT)}
                 />
                 <FormControl.Feedback />
@@ -111,7 +111,7 @@ export default class ContactUs extends Component {
                   componentClass="textarea"
                   style={{ height: "20rem"}}
                   value={this.state.body}
-                  placeholder="Description"
+                  placeholder="DESCRIPTION"
                   onChange={(e, type) => this.handleChange(e, BODY)}
                 />
                 <FormControl.Feedback />
