@@ -5,7 +5,7 @@ const PlanetBColumn = () => {
   return (
     <div className="planetb-news">
       <h1 className="maintitle-dark">LATEST COLUMNS</h1>
-      <div className="maintitle-dark-paragraph">We write and submit an article to be published in a newspaper, Steemit, journal, etc.</div>
+      <div className="maintitle-dark-paragraph"><center>We write and submit an article to be published in a newspaper, Steemit, journal, etc.</center></div>
   	  <Grid>
       	    <div style={{height:'50'}}></div>
   	    <Row className="show-grid">

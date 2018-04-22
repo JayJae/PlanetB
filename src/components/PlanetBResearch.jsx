@@ -12,7 +12,7 @@ const PlanetBResearch = () => {
     	  <Row className="show-grid">
           <Col sm={12} md={12}>
     	    <ListGroup>
-              <a href="https://docs.google.com/document/d/1Pxoalb4AgSzI3gy2MVfklJ7_s8cmzyZRFOcj1UNWqcQ/edit <Badge pullRight>ongoing</Badge>" target="_blank">
+              <a href="https://docs.google.com/document/d/1Pxoalb4AgSzI3gy2MVfklJ7_s8cmzyZRFOcj1UNWqcQ/edit" target="_blank">
                 <ListGroupItem header="Project Voyager; Kyung Min Kim, Ji Sung Yoon, Duk Sang Lee">
 		  Monitoring and detecting suspicious patterns in blockchain networks.
 		</ListGroupItem>
