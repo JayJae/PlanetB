@@ -121,14 +121,16 @@ export default class ContactUs extends Component {
           <Row>
             <Col md={3} xs={0} />
             <Col md={6} xs={12}>
-              <Button
-                type="submit border"
-                bsStyle="border"
+            <div id="container">
+              <button
+                type="submit"
+                className="button-2"
                 bsSize="large"
-                style={{width:"100%"}}
+                style={{color:"black"}}
                 >
                 SEND IT OVER >
-              </Button>
+              </button>
+            </div>
             </Col>
             <Col md={3} xs={0} />
           </Row>

@@ -37,6 +37,12 @@ const PlanetBMain = () => {
         <h6 className="maintitle-sub">Aliens Living on the Blockchain Planet</h6>
         <p className="main-glyphicon"><span className="glyphicon glyphicon-globe"></span></p>
         <h2 className="subtitle">Research centered Blockchain Community in POSTECH</h2>
+        <div id="container">
+          <div className="button-2">
+            <div className="eff-2"></div>
+            <a href="facebook.com"> Learn more </a>
+          </div>
+        </div>
       </div>
     </div>
   );
