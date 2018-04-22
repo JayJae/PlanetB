@@ -5,7 +5,7 @@ const PlanetBAbout = () => {
   return (
     <div className="planetb-about">
       <h1 className="maintitle">WHAT WE DO</h1>
-        <div className="maintitle-paragraph">Planet.B is the student-run organization at POSTECH dedicated to doing blockchain research with consensus algorithms, DApp and cryptoeconomics.</div>
+        <div className="maintitle-paragraph">Planet.B is a student-run organization at POSTECH dedicated to doing blockchain research with consensus algorithms, DApp and cryptoeconomics.</div>
       <Grid>
   	    <Row className="show-grid">
   	      <Col sm={6} md={3}>

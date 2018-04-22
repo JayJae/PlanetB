@@ -12,7 +12,7 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/bkjang.jpg",
       name: "Byung Kook Jang",
-      description: "Undergrad @POSTECH Industrial & Mgmt Eng. Crypto Millionaire"
+      description: "Undergrad @POSTECH Industrial & Mgmt Eng. Token Economist, ICO Expert"
     },
     {
       imageUrl: "/src/images/team/jwpark.jpg",
@@ -73,6 +73,11 @@ const MemberList = () => {
       imageUrl: "/src/images/team/tyjeong.png",
       name: "Tae Yeol Jeong",
       description: "PhD @POSTECH CS, Fog Computing & Distributed Storage Systems"
+    },
+    {
+      imageUrl: "/src/images/team/dhahn.jpg",
+      name: "Dong Hoon Ahn",
+      description: "Undergrad @POSTECH CITE. Researcher @Penta Security Systems"
     },
     {
       imageUrl: "/src/images/team/bjson.jpg",

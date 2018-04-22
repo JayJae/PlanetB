@@ -7,6 +7,7 @@ import promise from 'redux-promise';
 
 import MainPage from './components/MainPage';
 import TopNavbar from './components/TopNavbar';
+import PBFooter from './components/PBFooter';
 
 import reducers from './reducers';
 
@@ -26,3 +27,5 @@ ReactDOM.render(
     </BrowserRouter>
   </Provider>
   , document.querySelector('.container-main'));
+
+  ReactDOM.render(<PBFooter />, document.getElementById('footer'));

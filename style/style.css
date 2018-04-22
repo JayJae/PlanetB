@@ -259,13 +259,13 @@ Main Page
 }
 
 .research-category-box {
-  background-color: RGB(255, 255, 255, 1);
   border: 1px solid #cfcfcf;
 }
 
 .research-glyphicon {
   color: #272727;
-  font-size: 10em;
+
+  font-size: 6em;
   text-align: center;
   margin: 0px;
   padding: 0px !important;
@@ -314,7 +314,7 @@ Main Page
 
 /* contact us */
 .contact-us {
-  background: #272727;
+  background: #101010;
   height:100%;
 }
 
@@ -352,8 +352,16 @@ textarea.form-control{
 
 /* footer */
 .planetb-footer {
-  background: url("/src/images/footer-bg.png");
-  background-position:center top;
+  background: url("/src/images/cosmos-reverse.png");
+  background-position:center center;
+  background-repeat: repeat;
+  height: 200px;
+  padding-top: 70px;
+}
+
+.footer-layout{
+  text-align: center;
+
 }
 
 /* Particles */

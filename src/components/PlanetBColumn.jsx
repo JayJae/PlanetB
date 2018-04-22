@@ -59,7 +59,7 @@ const PlanetBColumn = () => {
   	      </Col>
   	    </Row>
   	  </Grid>
-    </div>
+      </div>
   );
 };
 
