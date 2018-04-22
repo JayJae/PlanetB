@@ -49,6 +49,7 @@ body, table, div, p {font-family:'Nanum Gothic';}
   position:absolute;
   transition:all .5s ease;
   z-index:1;
+  vertical-align: middle;
 }
 .button-2:hover .eff-2{
  left:0;
@@ -170,11 +171,11 @@ Main Page
 .maintitle-dark-paragraph{
   color: white;
   font-size: 1em;
-  text-align: center;
-  padding-top: 1em;
+  text-align: justify;
   max-width: 720px;
   left:50%;
-  margin: auto auto 3em auto;
+  padding: 1em 1.5em 0em 1.5em;
+  margin: auto auto 2em auto;
 }
 .maintitle-no-padding {
   color: #272727;
@@ -189,7 +190,7 @@ Main Page
 .maintitle-no-padding-paragraph{
   color: #272727;
   font-size: 1em;
-  text-align: left;
+  text-align: justify;
   max-width: 720px;
   left:50%;
   margin: auto;
@@ -228,6 +229,7 @@ Main Page
   margin: 0 !important;
   padding: 0 !important;
   color: white;
+
 }
 .profile-img {
 
@@ -313,6 +315,14 @@ Main Page
 }
 
 /* Research */
+.list-group-item {
+  color: black;
+}
+
+.list-group-item-heading {
+  font-weight: bold;
+}
+
 .planetb-news {
   background: linear-gradient( rgba(4, 31, 48, 1), rgba(4, 31, 48, 0.6) ), url("/src/images/collage.jpg");
   background-position:center top;
@@ -460,3 +470,41 @@ textarea.form-control{
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
+
+
+/*
+반응형
+*/
+.mobile-only {
+  display: none;
+}
+
+@media screen and (max-width:600px) { /* [start] media query */
+
+.mobile-only {
+  display: initial;
+}
+
+#planetbmain-subtitle {
+  font-size: 1.5em;
+}
+
+.maintitle-dark {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 2em;
+  font-weight: lighter;
+
+}
+
+/* Research */
+.list-group-item-heading, 
+.list-group-item-text {
+  font-size: 1em;
+}
+
+
+} /* [end] media query */

@@ -7,7 +7,7 @@ const PlanetBColumn = () => {
       <h1 className="maintitle-dark">LATEST COLUMNS</h1>
       <div className="maintitle-dark-paragraph">We write and submit an article to be published in a newspaper, Steemit, journal, etc.</div>
   	  <Grid>
-      <div style={{height:'50'}}></div>
+      	    <div style={{height:'50'}}></div>
   	    <Row className="show-grid">
   	      <Col sm={6} md={3}>
             <div className="news-category-box">

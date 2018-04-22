@@ -7,8 +7,10 @@ const PBFooter = () => {
         <div className="footer-layout">
           <a href="#HOME"><img src="./src/images/logo_white.png" width="200px" height="auto" /></a>
   				<div className="maintitle-dark-paragraph">
-  					<p>© 2018 <strong>PLANET.B</strong> ALL RIGHTS RESERVED</p>
-				  </div>
+				  <center>
+  				    <p>© 2018 <strong>PLANET.B</strong> ALL RIGHTS RESERVED</p>
+				  </center>
+				</div>
         </div>
 			</div>
 		</footer>
