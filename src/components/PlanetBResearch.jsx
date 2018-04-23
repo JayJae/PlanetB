@@ -18,14 +18,14 @@ const PlanetBResearch = () => {
 		</ListGroupItem>
 	      </a>
               <a href="https://docs.google.com/document/d/1dXCb8LuJyDGaV6-3tLKdddOpV_xW_7YnFPgScZ5kEfs/edit" target="_blank">
-        	<ListGroupItem header="Realistic DAO Design; Byeong Jun Kim, Byung Kook Jang, Hyo Jin Ju, Kyeong Jun Lee, et al.">
+        	<ListGroupItem header="Realistic DAO Design; Byeong Jun Kim, Byung Guk Jang, Hyo Jin Ju, Kyeong June Lee, et al.">
 		  Designing a realistic, applicable DAO system for every organizations.
 		</ListGroupItem>
 	      </a>
               <ListGroupItem disabled header="Getting Decentralized for DPOS; Hyun Jae Park">
 		Conceiving more decentralized DPOS model.
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Inventing Decentralization Index; Kyeong Jun Lee">
+              <ListGroupItem disabled header="Inventing Decentralization Index; Kyeong June Lee">
 		What would be the index determining how decentralized?
 	      </ListGroupItem>
               <ListGroupItem disabled header="Crypto-philantrophy with DPOS; Jin Woo Park">

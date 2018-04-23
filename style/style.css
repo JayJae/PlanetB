@@ -222,7 +222,7 @@ Main Page
   display: block;
   overflow: hidden;
   width: 100%;
-  height: 200px;
+  height: 250px;
 }
 
 .profile {
@@ -501,7 +501,7 @@ textarea.form-control{
 }
 
 /* Research */
-.list-group-item-heading, 
+.list-group-item-heading,
 .list-group-item-text {
   font-size: 1em;
 }

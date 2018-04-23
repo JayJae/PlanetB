@@ -12,12 +12,12 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/bkjang.png",
       name: "Byeong Guk Jang",
-      description: "Undergrad @POSTECH Industrial & Mgmt Eng. Token Economist, ICO Expert"
+      description: "Undergrad @POSTECH IME, Token Economist, ICO Expert"
     },
     {
       imageUrl: "/src/images/team/jwpark.png",
       name: "Jin Woo Park",
-      description: "Product Manager @Chain Partners, Undergrad @POSTECH MSE"
+      description: "Undergrad @POSTECH MSE, Product Manager @Chain Partners"
     },
     {
       imageUrl: "/src/images/team/kjlee.png",
@@ -62,7 +62,7 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/jycho.jpg",
       name: "Jae Yeon Cho",
-      description: "Undergrad @POSTECH CITE, ICO Project Manager @Penta Security Systems"
+      description: "Undergrad @POSTECH CITE, Engineer @Penta Security Systems"
     },
     {
       imageUrl: "/src/images/team/kwjoo.png",
@@ -82,7 +82,7 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/bjson.jpg",
       name: "Beom Jun Sohn",
-      description: "Undergrad @POSTECH CITE, DApp Researcher"
+      description: "Undergrad @POSTECH CITE, DApp Research"
     },
     {
       imageUrl: "/src/images/team/hjhjpark.png",
