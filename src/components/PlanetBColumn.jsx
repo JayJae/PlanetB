@@ -12,7 +12,7 @@ const PlanetBColumn = () => {
   	      <Col sm={6} md={3}>
             <div className="news-category-box">
               <img src="/src/images/news/coindesk.png"></img>
-              <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
+              <p>Interviewed Vitalik Buterin and participated as a translator.</p>
               <div id="container">
                 <div className="button-3">
                   <div className="eff-3"></div>
