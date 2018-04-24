@@ -125,7 +125,7 @@ export default class ContactUs extends Component {
             <div id="container">
               <button
                 type="submit"
-                className="button-2"
+                className="button-1"
                 bsSize="large"
                 >
                 SEND IT OVER >

@@ -20,6 +20,22 @@ body, table, div, p {font-family:'Nanum Gothic';}
   margin-top:50px;
 }
 
+/* BUTTON 1 */
+/* This is a big button for contact us */
+.button-1{
+  width:140px;
+  height:50px;
+  border:3px solid #fff;
+  float:left;
+  text-align:center;
+  cursor:pointer;
+  position:absolute;
+  box-sizing:border-box;
+  overflow:hidden;
+  left:50%;
+  margin: 0 0 0 -70px;
+}
+
 /* BUTTON 2 */
 /* This is a big button for main page */
 
