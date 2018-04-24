@@ -127,7 +127,6 @@ export default class ContactUs extends Component {
                 type="submit"
                 className="button-2"
                 bsSize="large"
-                style={{color:"black"}}
                 >
                 SEND IT OVER >
               </button>
