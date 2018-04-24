@@ -18,7 +18,7 @@ const PlanetBResearch = () => {
 		</ListGroupItem>
 	      </a>
               <a href="https://docs.google.com/document/d/1dXCb8LuJyDGaV6-3tLKdddOpV_xW_7YnFPgScZ5kEfs/edit" target="_blank">
-        	<ListGroupItem header="Realistic DAO Design; Byeong Jun Kim, Byung Guk Jang, Hyo Jin Ju, Kyeong June Lee, et al.">
+        	<ListGroupItem header="Realistic DAO Design; Byeong Jun Kim, Byung Guk Jang, Hyo Jin Ju, Kyung June Lee, et al.">
 		  Designing a realistic, applicable DAO system for every organizations.
 		</ListGroupItem>
 	      </a>

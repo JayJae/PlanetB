@@ -221,8 +221,16 @@ Main Page
 .thumb {
   display: block;
   overflow: hidden;
-  width: 100%;
-  height: 300px;
+
+  &amp;:after { /* after로 반응형 정사각형 만들기 */
+  content: &quot;&quot;;
+  display: block;
+  padding-bottom: 100%;  }
+  .inner { /* 내부에 컨텐츠가 있을 때 추가 */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .profile {
@@ -274,8 +282,7 @@ Main Page
 .planetb-about {
 }
 #ABOUT {
-  height: 400px !important;
-
+  max-height: 400px !important;
 }
 
 /* Research */
@@ -335,9 +342,8 @@ Main Page
 }
 .news-category-box img{
   width:15em;
-  max-height: 100%;
-  margin-top:1em;
-  margin-bottom:1em;
+  padding-top:1em;
+  padding-bottom:2em;
 }
 .news-category {
   margin-top: -40px !important;

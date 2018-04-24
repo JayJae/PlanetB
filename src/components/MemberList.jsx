@@ -92,7 +92,17 @@ const MemberList = () => {
     {
       imageUrl: "/src/images/team/kcko.png",
       name: "Kyung Chan Ko",
-      description: "PhD Candidate @POSTECH, specialized in distributed computing"
+      description: "PhD Candidate @POSTECH CS, specialized in distributed computing"
+    },
+    {
+      imageUrl: "/src/images/team/dslee.png",
+      name: "Duk Sang Lee",
+      description: "PhD Candidate @POSTECH IME, Researcher of POSTECH blockchain center"
+    },
+    {
+      imageUrl: "/src/images/team/mjkim.png",
+      name: "Min Jae Kim",
+      description: "Undergrad @POSTECH CS, Cryptoeconomist"
     }
   ]
 
