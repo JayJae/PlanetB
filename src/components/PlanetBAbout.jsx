@@ -13,16 +13,16 @@ const PlanetBAbout = () => {
               </Col>
               <Col sm={12} md={4}>
               <p className="research-category-box research-glyphicon">
-                <span className="glyphicon glyphicon-check"> Consensus Algorithm</span>
+                <span className="glyphicon glyphicon-check"></span> Consensus Algorithm
               </p>
               <p className="research-category-box research-glyphicon">
-                <span className="glyphicon glyphicon-phone"> Decentralized Application</span>
+                <span className="glyphicon glyphicon-phone"></span> Decentralized Application
               </p>
               <p className="research-category-box research-glyphicon">
-                <span className="glyphicon glyphicon-bitcoin"> Token Economics</span>
+                <span className="glyphicon glyphicon-bitcoin"></span> Token Economics
               </p>
               <p className="research-category-box research-glyphicon">
-                <span className="glyphicon glyphicon-link"> Blockchain Network</span>
+                <span className="glyphicon glyphicon-link"></span> Blockchain Network
               </p>
               </Col>
             </Row>

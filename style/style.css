@@ -10,6 +10,10 @@ body, table, div, p {font-family:'Nanum Gothic';}
   margin: 0px !important;
 }
 
+.navbar img{
+  height:1.1em;
+}
+
 *{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
 #container{
   height:230px;
@@ -201,6 +205,9 @@ Main Page
   margin-left: auto;
   margin-right: auto;
   margin-top: 5%;
+  @media (max-width: 40em) {
+    visibility:hidden;
+  }
 }
 .maintitle-sub {
   color: #cfcfcf;
@@ -298,7 +305,6 @@ Main Page
   color: #272727;
 
   font-size: 1.5em;
-  word-spacing: -0.7em;
   text-align: left;
   line-height: 2em;
   margin: 0px;
