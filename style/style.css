@@ -3,6 +3,11 @@
 
 body, table, div, p {font-family:'Nanum Gothic';}
 
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+}
+
 /* TopNavbar */
 .navbar{
   border: none;
