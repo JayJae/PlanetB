@@ -9,7 +9,7 @@ const PlanetBColumn = () => {
   	  <Grid>
       	    <div style={{height:'50'}}></div>
   	    <Row className="show-grid">
-  	      <Col sm={6} md={4}>
+  	      <Col sm={6} md={3}>
             <div className="news-category-box">
               <img src="/src/images/news/coindesk.png"></img>
               <p>Interviewed Vitalik Buterin and translated his words with Coindesk Korea.</p>
@@ -21,7 +21,7 @@ const PlanetBColumn = () => {
                 </div>
               </div>
   	      </Col>
-  	      <Col sm={6} md={4}>
+  	      <Col sm={6} md={3}>
             <div className="news-category-box">
               <img src="/src/images/news/coindesk.png"></img>
               <p>Published a series of articles about our research with Coindesk Korea.</p>
@@ -33,10 +33,22 @@ const PlanetBColumn = () => {
                 </div>
               </div>
   	      </Col>
-          <Col sm={6} md={4}>
+          <Col sm={6} md={3}>
             <div className="news-category-box">
               <img src="/src/images/news/blockchain-news.png"></img>
               <p>Introduced about Planet.B vision and activities by Kyung June Lee.</p>
+              <div id="container">
+                <div className="button-3">
+                  <div className="eff-3"></div>
+                  <a href="#COLUMN"> To Be Published</a>
+                  </div>
+                </div>
+              </div>
+          </Col>
+          <Col sm={6} md={3}>
+            <div className="news-category-box">
+              <img src="/src/images/news/steemit.png"></img>
+              <p>Published articles about our research topics.</p>
               <div id="container">
                 <div className="button-3">
                   <div className="eff-3"></div>
