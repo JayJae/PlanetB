@@ -22,22 +22,22 @@ const PlanetBResearch = () => {
 		  Designing a realistic, applicable DAO system for every organizations.
 		</ListGroupItem>
 	      </a>
-              <ListGroupItem disabled header="Getting Decentralized for DPOS; Hyun Jae Park">
+              <ListGroupItem  header="Getting Decentralized for DPOS; Hyun Jae Park">
 		Conceiving more decentralized DPOS model.
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Inventing Decentralization Index; Kyeong June Lee">
+              <ListGroupItem  header="Inventing Decentralization Index; Kyeong June Lee">
 		What would be the index determining how decentralized?
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Crypto-philantrophy with DPOS; Jin Woo Park">
+              <ListGroupItem  header="Crypto-philantrophy with DPOS; Jin Woo Park">
 		Practical system to operate NGOs and manage donation funds.
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Optimizing Consensus Algorithm with Game Theory and Reinforcement Learning; Hyung Jun Park">
+              <ListGroupItem  header="Optimizing Consensus Algorithm with Game Theory and Reinforcement Learning; Hyung Jun Park">
 		Game theory and reinforcement learning could be used for making optimal decisions among nodes.
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Standard Units for Blockchain Industries; Min Jae Kim">
+              <ListGroupItem  header="Standard Units for Blockchain Industries; Min Jae Kim">
 		Suggesting economical units for blockchain industries in market perspectives.
 	      </ListGroupItem>
-              <ListGroupItem disabled header="Specifying Security Token Systems; Ki Young Ju">
+              <ListGroupItem  header="Specifying Security Token Systems; Ki Young Ju">
 		It's very important to develop security token systems to popularize blockchain technology.
 	      </ListGroupItem>
 	    </ListGroup>
