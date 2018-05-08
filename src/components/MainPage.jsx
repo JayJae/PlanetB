@@ -28,7 +28,7 @@ class MainPage extends Component {
             <Section color="#0E2331" className="section-about">
               <PlanetBMain />
             </Section>
-            <Section color="#EFEFEF">
+            <Section color="#f5f7fb">
               <PlanetBAbout />
             </Section>
             <Section color="#041e2f">

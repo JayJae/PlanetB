@@ -15,11 +15,10 @@ export default class TopNavbar extends Component {
     	  <Navbar.Collapse>
     	    <Nav pullRight>
     	      <NavItem eventKey={1} href="#HOME">HOME</NavItem>
-            <NavItem eventKey={2} href="#ABOUT">ABOUT</NavItem>
-    	      <NavItem eventKey={3} href="#RESEARCH">RESEARCH</NavItem>
-    	      <NavItem eventKey={4} href="#TEAM">TEAM</NavItem>
-    	      <NavItem eventKey={5} href="#COLUMN">COLUMN</NavItem>
-    	      <NavItem eventKey={6} href="#CONTACT">CONTACT</NavItem>
+    	      <NavItem eventKey={2} href="#RESEARCH">RESEARCH</NavItem>
+    	      <NavItem eventKey={3} href="#TEAM">TEAM</NavItem>
+    	      <NavItem eventKey={4} href="#COLUMN">COLUMN</NavItem>
+    	      <NavItem eventKey={5} href="#CONTACT">CONTACT</NavItem>
     	    </Nav>
     	  </Navbar.Collapse>
     	</Navbar>
