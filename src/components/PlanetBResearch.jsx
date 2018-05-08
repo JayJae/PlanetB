@@ -21,7 +21,7 @@ const PlanetBResearch = () => {
 
                      </Col>
                      <Col xs="4" className="get-right">
-                     Kyung Min Kim, Ji Sung Yoon, Duk Sang Lee
+                    <i>Kyung Min Kim, Ji Sung Yoon, Duk Sang Lee</i>
                      </Col>
                      </Row>
       		          </ListGroupItem>
@@ -36,7 +36,7 @@ const PlanetBResearch = () => {
 
                    </Col>
                    <Col xs="4" className="get-right">
-                   Jae Yeon Cho, Jin Woo Park
+                   <i>Jae Yeon Cho, Jin Woo Park</i>
                    </Col>
                    </Row>
                   </ListGroupItem>
@@ -49,7 +49,7 @@ const PlanetBResearch = () => {
                   This study will devise a scalable DAO system with more opened, global token incentivization. The goal of this study is hyperconnecting people around the world, which sounds somewhat abstract.
                    </Col>
                    <Col xs="4" className="get-right">
-                   Hyo Jin Ju, Hyun Sung Jeon
+                   <i>Hyo Jin Ju, Hyun Sung Jeon</i>
                    </Col>
                    </Row>
                   </ListGroupItem>
@@ -62,7 +62,7 @@ const PlanetBResearch = () => {
                   In this research, we try to uncover the effects of malicious nodes on blockchain using ABM (Agent-based Model). ABM models each agent and its action policy in the system and enable to simulate what happen in the system.
                    </Col>
                    <Col xs="4" className="get-right">
-                   Do Yup Lee, Ji Sung Yoon
+                   <i>Do Yup Lee, Ji Sung Yoon</i>
                    </Col>
                    </Row>
                   </ListGroupItem>
@@ -75,7 +75,7 @@ const PlanetBResearch = () => {
                   This study will figure out what would be the weakest link in the viewpoint of end-to-end security, and suggest various ways to solve cryptocurrency hacking problems.
                    </Col>
                    <Col xs="4" className="get-right">
-                   Ki Young Ju, Byeong Kook Jang
+                   <i>Ki Young Ju, Byeong Kook Jang</i>
                    </Col>
                    </Row>
                  </ListGroupItem>
@@ -88,7 +88,7 @@ const PlanetBResearch = () => {
                    Designing a realistic, applicable DAO system for every organizations. For now, the purpose of this paper is just to make our organization be more decentralized and incentivized.
                     </Col>
                     <Col xs="4" className="get-right">
-                    Byeong Jun Kim, Byung Kook Jang, Hyo Jin Ju, Kyung June Lee, et al.
+                    <i>Byeong Jun Kim, Byung Kook Jang, Hyo Jin Ju, Kyung June Lee, et al.</i>
                     </Col>
                     </Row>
                    </ListGroupItem>
@@ -100,7 +100,7 @@ const PlanetBResearch = () => {
               Helping newcomers overcome their lack of experience and education in crypto ecosystem, using blockchain analytics.
                </Col>
                <Col xs="4" className="get-right">
-               Kyung Chan Ko, Tae Yeol Jeong
+               <i>Kyung Chan Ko, Tae Yeol Jeong</i>
                </Col>
                </Row>
               </ListGroupItem>
