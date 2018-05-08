@@ -17,34 +17,25 @@ const PlanetBResearch = () => {
                     <ListGroupItem header="Project Voyager">
                     <Row>
                     <Col xs="8">
-      		           Monitoring and detecting suspicious patterns in blockchain networks.
+                    Monitoring and detecting suspicious patterns in blockchain networks. “Voyager” means the first project of Planet.B as it is the first probe to go beyond the solar system.
+
                      </Col>
-                     <Col xs="4">
+                     <Col xs="4" className="get-right">
                      Kyung Min Kim, Ji Sung Yoon, Duk Sang Lee
                      </Col>
                      </Row>
       		          </ListGroupItem>
       	      </a>
 
-                  <ListGroupItem  header="Blockchain Analytics for Cryptocurrency Investments">
-                  <Row>
-                  <Col xs="8">
-                  Helping newcomers overcome their lack of experience and education in crypto ecosystem, using blockchain analytics.
-                   </Col>
-                   <Col xs="4">
-                   Kyung Chan Ko, Tae Yeol Jeong
-                   </Col>
-                   </Row>
-                  </ListGroupItem>
-
 
               <a href="https://docs.google.com/document/d/17Ohedel5iMaULc2K-t5MFADWbFoqqFM4j68Ot__BLKw/edit#heading=h.gr5450k0x1yv" target="_blank">
                   <ListGroupItem  header="A Case Study on Industrial Availability and Direction of Blockchain - Automobile IT System">
                   <Row>
                   <Col xs="8">
-                  Use case studies about application of existing/future automotive IT system of blockchain.
+                  Use case studies about application of existing/future automotive IT system of blockchain. The result would be a paper for design and limitations of automobile data ecosystem through blockchain.
+
                    </Col>
-                   <Col xs="4">
+                   <Col xs="4" className="get-right">
                    Jae Yeon Cho, Jin Woo Park
                    </Col>
                    </Row>
@@ -55,9 +46,9 @@ const PlanetBResearch = () => {
                   <ListGroupItem  header="Designing A Decentralized Community using Blockchain">
                   <Row>
                   <Col xs="8">
-                  This study will devise a scalable DAO system with more opened, global token incentivization.
+                  This study will devise a scalable DAO system with more opened, global token incentivization. The goal of this study is hyperconnecting people around the world, which sounds somewhat abstract.
                    </Col>
-                   <Col xs="4">
+                   <Col xs="4" className="get-right">
                    Hyo Jin Ju, Hyun Sung Jeon
                    </Col>
                    </Row>
@@ -68,9 +59,9 @@ const PlanetBResearch = () => {
                   <ListGroupItem  header="Robustness Identification against Malicious Attacks on Blockchain using Agent-based Model Simulation">
                   <Row>
                   <Col xs="8">
-                  In this research, we try to uncover the effects of malicious nodes on blockchain using ABM (Agent-based Model).
+                  In this research, we try to uncover the effects of malicious nodes on blockchain using ABM (Agent-based Model). ABM models each agent and its action policy in the system and enable to simulate what happen in the system.
                    </Col>
-                   <Col xs="4">
+                   <Col xs="4" className="get-right">
                    Do Yup Lee, Ji Sung Yoon
                    </Col>
                    </Row>
@@ -83,7 +74,7 @@ const PlanetBResearch = () => {
                   <Col xs="8">
                   This study will figure out what would be the weakest link in the viewpoint of end-to-end security, and suggest various ways to solve cryptocurrency hacking problems.
                    </Col>
-                   <Col xs="4">
+                   <Col xs="4" className="get-right">
                    Ki Young Ju, Byeong Kook Jang
                    </Col>
                    </Row>
@@ -94,14 +85,25 @@ const PlanetBResearch = () => {
                    <ListGroupItem header="Realistic DAO Design">
                    <Row>
                    <Col xs="8">
-                   Designing a realistic, applicable DAO system for every organizations.
+                   Designing a realistic, applicable DAO system for every organizations. For now, the purpose of this paper is just to make our organization be more decentralized and incentivized.
                     </Col>
-                    <Col xs="4">
-                    Byeong Jun Kim, Byung Guk Jang, Hyo Jin Ju, Kyung June Lee, et al.
+                    <Col xs="4" className="get-right">
+                    Byeong Jun Kim, Byung Kook Jang, Hyo Jin Ju, Kyung June Lee, et al.
                     </Col>
                     </Row>
                    </ListGroupItem>
               </a>
+
+              <ListGroupItem  header="Blockchain Analytics for Cryptocurrency Investments">
+              <Row>
+              <Col xs="8">
+              Helping newcomers overcome their lack of experience and education in crypto ecosystem, using blockchain analytics.
+               </Col>
+               <Col xs="4" className="get-right">
+               Kyung Chan Ko, Tae Yeol Jeong
+               </Col>
+               </Row>
+              </ListGroupItem>
 
 	    </ListGroup>
           </Col>

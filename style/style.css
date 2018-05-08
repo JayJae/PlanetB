@@ -350,6 +350,9 @@ Main Page
 .member {
 }
 
+.get-right {
+  text-align:right;
+}
 
 /* News */
 .list-group-item {
