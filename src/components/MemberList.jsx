@@ -11,7 +11,7 @@ const MemberList = () => {
     },
     {
       imageUrl: "/src/images/team/bkjang.png",
-      name: "Byeong Guk Jang",
+      name: "Byeong Kook Jang",
       description: "Undergrad @POSTECH IME, Token Economist, ICO Expert"
     },
     {
@@ -51,7 +51,7 @@ const MemberList = () => {
     },
     {
       imageUrl: "/src/images/team/dylee.png",
-      name: "Do Yeop Lee",
+      name: "Do Yup Lee",
       description: "PhD Candidate @POSTECH CITE, AI, Kakao Brain",
     },
     {
