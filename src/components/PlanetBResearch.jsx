@@ -32,7 +32,7 @@ const PlanetBResearch = () => {
                   <ListGroupItem  header="A Case Study on Industrial Availability and Direction of Blockchain - Automobile IT System">
                   <Row>
                   <Col xs="8">
-                  Use case studies about application of existing/future automotive IT system of blockchain. The result would be a paper for design and limitations of automobile data ecosystem through blockchain.
+                  Use case studies about application of existing/future automotive IT system of blockchain. The result would be a paper describing design and limitations of automobile data ecosystem through blockchain.
 
                    </Col>
                    <Col xs="4" className="get-right">
@@ -46,7 +46,7 @@ const PlanetBResearch = () => {
                   <ListGroupItem  header="Designing A Decentralized Community using Blockchain">
                   <Row>
                   <Col xs="8">
-                  This study will devise a scalable DAO system with more opened, global token incentivization. The goal of this study is hyperconnecting people around the world, which sounds somewhat abstract.
+                  This study will devise a scalable DAO system with more opened, global token incentivization. The goal of this study is to suggest a system hyperconnecting people around the world.
                    </Col>
                    <Col xs="4" className="get-right">
                    <i>Hyo Jin Ju, Hyun Sung Jeon</i>
