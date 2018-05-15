@@ -118,6 +118,8 @@ const MemberList = () => {
 
   return (
     <div>
+      <div className="maintitle-dark-leftsided-header"><span># Researchers</span></div>
+      <div className="maintitle-dark-leftsided-paragraph">Our team consists of PhD candidates, developers, entrepreneurs and engineering undergrads all coming from <strong>POSTECH</strong>(Pohang University of Science and Technology).</div>
       {memberList}
     </div>
   );
