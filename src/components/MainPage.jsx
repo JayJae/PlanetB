@@ -37,12 +37,12 @@ class MainPage extends Component {
             </Section>
             <Section color="#041e2f">
               <div className="member">
-                <h2 className="maintitle-dark">TEAM</h2>
                 <MemberList />
               </div>
             </Section>
             <Section color="#041e2f">
               <AdvisorList />
+              
             </Section>
             <Section color="#041e2f">
               <PlanetBColumn />

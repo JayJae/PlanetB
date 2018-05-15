@@ -209,11 +209,10 @@ Main Page
 .maintitle-dark-leftsided-header {
   color: white;
   font-size: 2em;
-  text-align: left;
+  text-align: center;
   font-weight: lighter;
   font-style:italic;
   font-weight: 400;
-  max-width: 720px;
   padding: 1em 0em 0em 0.5em;
   margin: auto auto 1em auto;
 
@@ -610,6 +609,5 @@ textarea.form-control{
 .list-group-item-text {
   font-size: 1em;
 }
-
 
 } /* [end] media query */

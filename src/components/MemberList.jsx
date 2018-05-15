@@ -1,5 +1,6 @@
 import React from 'react';
 import Member from './Member';
+import { Grid } from 'react-bootstrap';
 
 const MemberList = () => {
   const memberInfos = [
@@ -118,9 +119,13 @@ const MemberList = () => {
 
   return (
     <div>
-      <div className="maintitle-dark-leftsided-header"><span># Researchers</span></div>
-      <div className="maintitle-dark-leftsided-paragraph">Our team consists of PhD candidates, developers, entrepreneurs and engineering undergrads all coming from <strong>POSTECH</strong>(Pohang University of Science and Technology).</div>
-      {memberList}
+      <Grid>
+        <br/><br/><br/>
+        <div className="maintitle-dark-leftsided-header"><span>Researchers</span></div>
+        <div className="maintitle-dark-leftsided-paragraph">Our team consists of PhD candidates, developers, entrepreneurs and engineering undergrads all coming from <strong>POSTECH</strong>(Pohang University of Science and Technology).</div>
+        </Grid>
+        {memberList}
+
     </div>
   );
 };

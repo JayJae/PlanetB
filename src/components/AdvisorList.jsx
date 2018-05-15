@@ -5,8 +5,11 @@ const AdvisorList = () => {
   return (
     <div>
     	  <Grid>
-          <div className="maintitle-dark-leftsided-header"><span># Advisors</span></div>
+        <br/>
+        <br/>
+          <div className="maintitle-dark-leftsided-header"><span>Advisors</span></div>
           <div className="maintitle-dark-leftsided-paragraph">Advisors are well-known pioneers in the blockchain industry, accelearting our community by helping us to make research topics more practical and important.</div>
+          <br/>
 
             <div className = "advisor-category-box">
               <Row>
@@ -15,7 +18,6 @@ const AdvisorList = () => {
               </Col>
 
                 <Col xs={12} sm={6}>
-                  <br/>
                   <h3> Simon Seojoon Kim </h3>
                   <br/>
                   <p>CEO at #HASHED</p>
@@ -24,7 +26,10 @@ const AdvisorList = () => {
                   <br/>
                   </Col>
               </Row>
+              <br/>
+              <br/>
             </div>
+            <hr/>
     	  </Grid>
       </div>
   );
