@@ -94,6 +94,19 @@ const PlanetBResearch = () => {
                    </ListGroupItem>
               </a>
 
+              <a href="https://docs.google.com/document/d/1ENSVL25lftsxGK_hXbiwpXYWs6OLWeYtqvjPcARdqFI/edit?usp=sharing" target="_blank">
+                  <ListGroupItem  header="Hozaebox: Cryptocurrency Information Exchange Community Based on Token Economy">
+                  <Row>
+                  <Col xs="8">
+                  This project is about suggesting a community token for Hozaebox, Korean cryptocurrency curation community, and designing a token economy for information exchange.
+                   </Col>
+                   <Col xs="4" className="get-right">
+                   <i>Kyeong-Jun Lee, Byungjun Kim</i>
+                   </Col>
+                   </Row>
+                 </ListGroupItem>
+              </a>
+
               <ListGroupItem  header="Blockchain Analytics for Cryptocurrency Investments">
               <Row>
               <Col xs="8">
