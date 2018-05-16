@@ -107,6 +107,7 @@ const PlanetBResearch = () => {
                  </ListGroupItem>
               </a>
 
+              <a href="https://docs.google.com/document/d/1x1He-X17f1_a7t_ld2L789NGvPybY4n5wZmaiI9fmwY/edit" target="_blank">
               <ListGroupItem  header="Blockchain Analytics for Cryptocurrency Investments">
               <Row>
               <Col xs="8">
@@ -117,7 +118,8 @@ const PlanetBResearch = () => {
                </Col>
                </Row>
               </ListGroupItem>
-
+              </a>
+              
 	    </ListGroup>
           </Col>
     	  </Row>

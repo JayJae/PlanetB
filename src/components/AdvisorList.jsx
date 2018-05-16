@@ -8,7 +8,7 @@ const AdvisorList = () => {
         <br/>
         <br/>
           <div className="maintitle-dark-leftsided-header"><span>Advisors</span></div>
-          <div className="maintitle-dark-leftsided-paragraph">Advisors are well-known pioneers in the blockchain industry, accelearting our community by helping us to make research topics more practical and important.</div>
+          <div className="maintitle-dark-leftsided-paragraph">Advisors are well-known pioneers in the blockchain industry, accelerating our community by helping us to make research topics more practical and important.</div>
           <br/>
 
             <div className = "advisor-category-box">
