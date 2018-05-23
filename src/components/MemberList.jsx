@@ -86,11 +86,6 @@ const MemberList = () => {
       description: "Undergrad @POSTECH CITE, DApp Research"
     },
     {
-      imageUrl: "/src/images/team/hjhjpark.png",
-      name: "Hyung Jun Park",
-      description: "MS Candidate @POSTECH CS, Token Economist"
-    },
-    {
       imageUrl: "/src/images/team/kcko.png",
       name: "Kyung Chan Ko",
       description: "PhD Candidate @POSTECH CS, specialized in distributed computing"
