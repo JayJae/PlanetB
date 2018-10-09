@@ -8,6 +8,7 @@ const PlanetBAbout = () => {
           <Grid>
             <Row className="show-grid">
               <Col sm={12} md={8}>
+                <div className="gutter-top">
               <h1 className="maintitle-no-padding">We build decentralized applications</h1>
                 <div className="maintitle-no-padding-paragraph">Planet B is a student-run organization at POSTECH dedicated to develop decentralized applications, middlewares, and private blockchain projects.
                   We are working with industry leaders and academics to design and developing blockchain solutions that create intrinsic values of decentralization.
@@ -17,6 +18,7 @@ const PlanetBAbout = () => {
                         <a target="_blank" href="https://goo.gl/forms/jiAcIkDW8HoatmZi2"> APPLY</a>
                     </div>
                   </div>
+                </div>
                 </div>
               </Col>
               <Col sm={12} md={4} className="gutter-top">

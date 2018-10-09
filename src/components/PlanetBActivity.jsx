@@ -12,7 +12,7 @@ const PlanetBActivity = () => {
   	      <Col sm={6} md={3}>
             <div className="news-category-box">
               <img src="/src/images/news/eosio.png"></img>
-              <p>Participated in EOS Hacakthon HongKong 2018.</p>
+              <p>Participated in EOS Hackathon HongKong 2018.</p>
               <div id="container">
                 <div className="button-3">
                   <div className="eff-3"></div>
