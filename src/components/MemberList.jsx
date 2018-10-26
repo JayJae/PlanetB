@@ -103,7 +103,8 @@ const MemberList = () => {
           Ki Young Ju //
           Beom Soo Lim //
           Kyung Min Kim //
-          Byeong Kook Jang
+          Byeong Kook Jang //
+          Soo Jin Lim
           <br/><br/>
           <h3><i>Alumni</i></h3>
           Hyojin Ju //
